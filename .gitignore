@@ -1,0 +1,30 @@
+# Ignore object files and binaries
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+
+# Ignore build directories
+/bin/
+/obj/
+/build/
+
+# Ignore dependency files
+*.d
+
+# Ignore compiled executables
+chatApp
+clientApp
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
