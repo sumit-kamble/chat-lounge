@@ -11,7 +11,7 @@ BIN_DIR = bin
 INCLUDE_DIR = include
 
 # Source files
-SERVER_SRC = $(SRC_DIR)/chatRoom.cpp
+SERVER_SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/server.cpp $(SRC_DIR)/session.cpp $(SRC_DIR)/room.cpp
 CLIENT_SRC = $(SRC_DIR)/client.cpp
 
 # Object files
